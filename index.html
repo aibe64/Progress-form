@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registeration Form</title>
+  <link rel="stylesheet" href="styles/bootstrap.css">
+		<link rel="stylesheet" href="styles/style.css">
+</head>
+<body class="bg-light">
+  <div class="container">
+    <div class="form_wrap>
+      <div class="fInput col-xs-12 col-lg-6 col-xl-7 p-2">
+        <div class="text-center p-3">
+          <form action="" class="workersForm">
+            <h2>FORM 1000067</h2>
+            <div class="progressBar  mx-5 mb-2 px-5">
+              <div class="progressCont my-5">
+                <b class="progress"></b>
+              </div>
+              <div></div>
+            </div>
+            <!-- PERSONAL INFORMATION -->
+            <div class="persInfo">
+              <div class="d-flex justify-content-center mb-4">
+                <h6 class="border border-dark border-top border-bottom border-left-0 border-right-0 rounded py-2 w-50">PERSONAL INFORMATION</h6>
+              </div>
+              <div class="row my-5">
+                <div class="d-block mx-auto">
+                  <div class="form-group p-3">
+                    <div class="parent">
+                      <div class="uploadCont">
+                        <div class="photo">
+                          <span id="psprtText">passport photo</span>
+                          <img id="passport" alt="passport">
+                        </div>
+                        <div class="btnCont">
+                          <button type="button"class="btnUpload btn btn-danger text-white">upload photo</button>
+                          <input type="file" name="passport" id="psprt" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Title</b></span>
+                  </div>
+                  <select class="title form-control" name="title">
+                    <option></option>
+                    <option>Ms</option>
+                    <option>Mr</option>
+                    <option>Miss</option>
+                    <option>Mrs</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Full Name</b></span>
+                  </div>
+                  <input type="text" class="fName form-control" name="fullName">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Date of Birth</b></span>
+                  </div>
+                  <input type="date" class="dob form-control" name="DOB">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Sex</b></span>
+                  </div>
+                  <div class="d-flex justify-content-column mx-3">
+                    <span class="m-2">male<input class="mx-2" type="radio" class="dob form-control" name="sex" value="m"></span>
+                    <span class="m-2">female<input class="mx-2" type="radio" class="sex form-control" name="DOB" value="f"></span>
+                </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Marital Status</b></span>
+                    </div>
+                    <select class="form-control" name="maritalStatus">
+                      <option></option>
+                      <option>single</option>
+                      <option>married</option>
+                      <option>divorced</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Blood Group</b></span>
+                    </div>
+                    <select class="bGroup form-control" name="BG">
+                      <option></option>
+                      <option>O+</option>
+                      <option>O-</option>
+                      <option>A+</option>
+                      <option>A-</option>
+                      <option>B+</option>
+                      <option>B-</option>
+                      <option>AB+</option>
+                      <option>AB-</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Genotype</b></span>
+                    </div>
+                    <select class="genotype form-control" name="genotype">
+                      <option></option>
+                      <option>AA</option>
+                      <option>AS</option>
+                      <option>SS</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Phone Number</b></span>
+                    </div>
+                    <input type="tel" class="phone form-control" name="phone">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Email</b></span>
+                    </div>
+                    <input type="email" class="form-control" name="email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Residential Address</b></span>
+                    </div>
+                    <input type="text" class="address form-control" name="address">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Social Media ID</b></span>
+                    </div>
+                    <input type="text" class="form-control" name="socialID">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Are you educated ?</b></span>
+                    </div>
+                    <select class="education form-control" name="educated" onchange="edu()">
+                      <option class="dropdown-item"></option>
+                      <option class="dropdown-item">Yes</option>
+                      <option class="dropdown-item">No</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group qDiv mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text"><b>Highest Qualification</b></span>
+                    </div>
+                    <select class="qualification form-control" name="qualification">
+                      <option class="dropdown-item"></option>
+                      <option class="dropdown-item">PhD</option>
+                      <option class="dropdown-item">MSc</option>
+                      <option class="dropdown-item">BTech</option>
+                      <option class="dropdown-item">BSc</option>
+                      <option class="dropdown-item">HND</option>
+                      <option class="dropdown-item">OND</option>
+                      <option class="dropdown-item">NCE</option>
+                      <option class="dropdown-item">Diploma</option>
+                      <option class="dropdown-item">SSCE</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="mt-5 d-flex justify-content-center">
+                  <input class="stp1Nxt btn bg-danger text-light w-50" type="button" value="Next">
+                </div>
+              </div>
+            </div>
+            <!-- NEXT OF KIN INFORMATION -->
+            <div class="nextOfKin">
+              <div class="d-flex justify-content-center mb-4 mt-5">
+                <h6 class="border border-dark border-top border-bottom border-left-0 border-right-0 rounded py-2 w-50">Next OF KIN</h6>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Full Name</b></span>
+                  </div>
+                  <input type="text" class="kinName form-control" name="kinName">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Address</b></span>
+                  </div>
+                  <input type="text" class="kinAddress form-control" name="kinAddress">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Phone Number</b></span>
+                  </div>
+                  <input type="tel" class="kinPhone form-control" name="kinPhone">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Relationship</b></span>
+                  </div>
+                  <select class="kinRel form-control" name="relationship">
+                    <option class="dropdown-item"></option>
+                    <option class="dropdown-item">brother</option>
+                    <option class="dropdown-item">sister</option>
+                    <option class="dropdown-item">nephew</option>
+                    <option class="dropdown-item">niece</option>
+                    <option class="dropdown-item">cousin</option>
+                    <option class="dropdown-item">son</option>
+                    <option class="dropdown-item">daughter</option>
+                    <option class="dropdown-item">grandchild</option>
+                  </select>
+                </div>
+              </div>
+              <div class="my-5 d-flex justify-content-around">
+                <input class="stp2Prev btn bg-danger text-light" type="button" value="Previous">
+                <input class="stp2Nxt btn bg-danger text-light" type="button" value="Next">
+              </div>
+            </div>
+            <!-- ADMIN INFORMATION -->
+            <div class="adminInfo">
+              <div class="d-flex justify-content-center mb-4 mt-5">
+                <h6 class="border border-dark border-top border-bottom border-left-0 border-right-0 rounded py-2 w-50">ADMIN INFORMATION</h6>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>What year did you join working team ?</b></span>
+                  </div>
+                  <input type="date" class="form-control" name="adminRegYear">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Are you a full-timer ?</b></span>
+                  </div>
+                  <select class="form-control" name="adminFullTime">
+                    <option class="dropdown-item"></option>
+                    <option class="dropdown-item">Yes</option>
+                    <option class="dropdown-item">No</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><b>Other roles played in church</b></span>
+                  </div>
+                  <textarea class="form-control" placeholder="Enter text here" name="adminOtherRoles"></textarea>
+                </div>
+              </div>
+              <div class="my-5 d-flex justify-content-around">
+                <input class="stp3Prev btn bg-danger text-light" type="button" value="Previous">
+                <input class="stp3Nxt  btn bg-danger text-light" type="button" value="Next">
+              </div>
+            </div>
+            <div class="confirmation my-5">
+              <h3><u>Confirmation</u></h3>
+              <h6 class="my-4">Please click the Previous Button to confirm your information. Otherwise, click Submit to finish your registeration process.</h6>
+              <div class="d-flex justify-content-around">
+                <input class="stp4Prev btn bg-danger text-light" type="button" value="Previous">
+              <input class=" btn bg-danger text-light" type="submit" value="SUBMIT">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/jquery-3.4.1.js"></script>
+  <script src="scripts/bootstrap.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
